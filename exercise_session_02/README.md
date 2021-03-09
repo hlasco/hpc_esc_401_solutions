@@ -28,5 +28,6 @@ The job scripts and output logs can be found in the git repo under the directory
 
 ## Exercise 4
 **Write a serial version of the code ”cpi.c” and edit the Makefile.**<br />
-The Makefile has been modified and the serial code including its results can bee found in the ex4 directory. 
+The Makefile has been modified and the serial code including its results can bee found in the ex4 directory.
+After a review I'm not sure anymore if I understood the exercise correctly. I took out the parallel commands in the OpenMP program, which lead to a significant increase in time, but I'm not sure if that's because of the batch file. I'm looking forward to see the solutions. 
 
