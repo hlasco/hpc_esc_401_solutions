@@ -1,0 +1,89 @@
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.736 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.736 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.735 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.736 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.737 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.753 seconds
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.73 seconds
+
+
+Batch Job Summary Report (version 21.01) for Job "ex4_job_1_cpi" (29835183) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-03-09T02:10:19 2021-03-09T02:10:19 2021-03-09T02:10:20 2021-03-09T02:10:28   00:00:08   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    rwassink         uzh8        debug        1      0.649 kJ
+

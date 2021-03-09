@@ -24,9 +24,9 @@ Running the test program hostname worked, but it ended to fast to actually check
 **and errors to errors.log?** #SBATCH --error errors.log<br />
 
 **Generate a job script for both the MPI and OpenMP version of the cpi code from exercise 1. Run both on a single node using all cores. What is the output?** <br />
-The job scripts and output logs can be found in the git repo. 
+The job scripts and output logs can be found in the git repo under the directory ex3. 
 
 ## Exercise 4
 **Write a serial version of the code ”cpi.c” and edit the Makefile.**<br />
-This can be found in the git repo.
+The Makefile has been modified and the serial code including its results can bee found in the ex4 directory. 
 
