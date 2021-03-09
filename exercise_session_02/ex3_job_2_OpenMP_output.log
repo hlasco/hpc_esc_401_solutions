@@ -1,0 +1,125 @@
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.735 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.741 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.734 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.736 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.736 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.735 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.736 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.739 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.738 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.741 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.74 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.741 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.741 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.741 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.741 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.742 seconds
+Thread rank: 0
+pi is approximately 3.1415926555899709, Error is 0.0000000020001778
+Computed in 1.73 seconds
+
+
+Batch Job Summary Report (version 21.01) for Job "ex3_job_2_OpenMP" (29833582) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2021-03-09T00:54:27 2021-03-09T00:54:27 2021-03-09T00:54:29 2021-03-09T00:54:40   00:00:11   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    rwassink         uzh8        debug        1      1.312 kJ
+
