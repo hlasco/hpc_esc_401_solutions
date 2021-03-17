@@ -15,4 +15,4 @@ As you can see, no progress from -O1 to -O3, I can't figure out why. Maybe we ca
 **How did the compiler optimize the code? How can you make it even faster?** The machine code gets optimized, faster by adding -ffast-math and/or -mavx2 flags<br />
 
 **Where did you insert the line? How did you compile? Provide the job script.** Before the for loop to parallelize the loop, compiled with best optimization and added flags. The job script can be found in the directory.<br />
-**Plot the speedup and discuss.**<br />
+**Plot the speedup and discuss.** See ex2_plot directory. The speedup is typical.<br />
