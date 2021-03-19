@@ -9,12 +9,12 @@
 **If I tell you that there is a file /users/hlascomb/hpc exam solution.txt, could you open it and read its content?** No I can't access<br />
 **Would you be able to write it?** No <br />
 
-**What command can you use to set the access permissions for a directory so only the owner has (full) access? ** chmod 700<br />
-**Create a file and set its permissions to 000. Can you do anything with it now? Is the file completely lost? ** No one (except root i guess) can access (and therefore write or execute it) but it can still be removed or it's permission changed.<br />
+**What command can you use to set the access permissions for a directory so only the owner has (full) access?** chmod 700<br />
+**Create a file and set its permissions to 000. Can you do anything with it now? Is the file completely lost?** No one (except root i guess) can access (and therefore write or execute it) but it can still be removed or it's permission changed.<br />
 
 ## Exercise 2
 The scripts are in the exercise 2 directory<br />
 
 ## Exercise 3
 The script is in the exercise 3 directory <br />
-**How much time did it take to compute the result?** <br />
+**How much time did it take to compute the result?** Both computations took 0.011 seconds and they're both prime.<br />
