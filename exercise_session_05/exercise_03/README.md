@@ -1,0 +1,3 @@
+**Which one is the most efficient solution, why?** Intuitively, adding it to both would make it the most efficient. OMP handles that with the collapse(2) clause <br \>
+**What is the expected scaling relation between the code execution time t and the number of particles N? Can you justify your answer?** I would say the relation is quadratic as it is a nested for loop --> it has a n^2 complexity.<br \>
+Whatever I tried, I couldn't make an OMP version (which i only realized after running all the calculations and seeing their timings). I will try later again, maybe I will find out my mistake or we can look at it together.  
