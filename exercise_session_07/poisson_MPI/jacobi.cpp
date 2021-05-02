@@ -13,16 +13,19 @@
  */
 double norm_diff(params p, double** mat1, double** mat2){
 
-    printf("Here, in norm_diff() function, change the serial implementation to MPI setup\n");
-    double ret=0., diff=0.;
-    for (int i=0; i<p.nx; i++){
-        for (int j=0; j<p.ny; j++){
-            diff = mat1[i][j] - mat2[i][j];
-            ret += diff*diff;
+    double sum=0.;
+    for (int i=p.xmin; i<p.xmax; i++){
+        for (int j=p.ymin; j<p.ymax; j++){
+            int idx = i - p.xmin;
+            int idy = j - p.ymin;
+            sum += (mat1[idx][idy] - mat2[idx][idy])*(mat1[idx][idy] - mat2[idx][idy]);
         }
     }
-    ret = sqrt(ret/(p.nx*p.ny));
-    return ret;
+    double total_sum;
+    ALLREDUCE(&sum, &total_sum);
+    total_sum /= p.nx*p.ny;
+    total_sum = sqrt(total_sum)
+    return total_sum;
 }
 
 /**
@@ -38,25 +41,34 @@ void jacobi_step(params p, double** u_new, double** u_old, double** f, int my_ra
     double dx = 1.0/((double)p.nx - 1);
     double dy = 1.0/((double)p.ny - 1);
 
-    double* fromLeft = new double[p.ymax - p.ymin]; 
-    double* fromRight = new double[p.ymax - p.ymin];
+    double fromLeft[p.ymax-p.ymin], fromRight[p.xmax-p.xmin]
 
-    for (int i=p.xmin; i<p.xmax; i++){
-        for (int j=p.ymin; j<p.ymax; j++){
-            u_old[i - p.xmin][j - p.ymin] = u_new[i - p.xmin][j - p.ymin];
+    MPI_Request requests[4];
+    for(int i=0;i<4;i++){requests[i]=MPI_REQUEST_NULL;}
+
+    for (int i=0; i<p.xmax-p.xmin; i++){
+        for (int j=0; j<p.ymax-p.ymin; j++){
+            u_old[i][j] = u_new[i][j];
         }
     }
 
-    halo_comm(p, my_rank, size, u_new, fromLeft, fromRight); 
+    halo_comm(p, my_rank, size, u_old, fromLeft, fromRight, requests);
 
-    printf("Function jacobi_step in jacobi.cpp : adapt the update of u_new.\n");
+    double left,right;
     for (int i=p.xmin; i<p.xmax; i++){
         if (i==0 || i==p.nx-1) continue;
         for (int j=p.ymin; j<p.ymax; j++){
             if (j==0 || j==p.ny-1) continue;
             int idx = i-p.xmin;
             int idy = j-p.ymin;
-            u_new[idx][idy] = 0.25*(u_old[idx-1][idy] + u_old[idx+1][idy] + u_old[idx][idy-1] + u_old[idx][idy+1] - dx*dy*f[idx][idy]);
+
+            if(i==p.xmin) left=fromLeft[idy];
+            else left=u_old[idx-1][idy];
+
+            if(i==p.xmax-1) right=fromRight[idy];
+            else right=u_old[idx+1][idy];
+
+            u_new[idx][idy] = 0.25*(left + right + u_old[idx][idy-1] + u_old[idx][idy+1] - dx*dy*f[idx][idy]);
         }
     }
     if (p.nx!=p.ny) printf("In function jacobi_step (jacobi.cpp l.26): nx != ny, check jacobi updates\n");

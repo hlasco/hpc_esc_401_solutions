@@ -2,6 +2,7 @@
 #include "init.h"
 #include "jacobi.h"
 
+
 int main (int argc, char *argv[]){
 
     const char* file_name="params.txt";
