@@ -8,4 +8,5 @@ I have modified the code, loaded the modules, compiled the code and ran it. <br 
 I have loaded the modules, compiled the code and ran it. Then I extended it with a for loop so the code runs multiple times. <br />
 **Compare the execution time with your results from exercise 1. Are the times of each iteration the same? Why (not)?** In this case, the first one is also a little bit slower. The later ones are faster but not as much as with OpenACC, this might be because we haven't used the optimal block/thread sizes. <br />
 
-
+## Exercise 3
+I extended the code with the block and thread sizes. You can see the results in the sorted_output file. Multiples of 32 worked the best as thread size (since it's a multiple of the warp size) and larger block sizes performed better.<br />
