@@ -1,1 +1,1 @@
-# hpc_esc_401
+## Submissions for exercises in High performence computing
