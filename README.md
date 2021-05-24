@@ -1,1 +1,2 @@
-## Submissions for exercises in High performence computing
+## Submissions for exercises in High performance computing
+
