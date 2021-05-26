@@ -22,4 +22,8 @@ axpy (openacc): 0.000332832 s<br />
 <br />
 Tried extending with #pragma acc data constructs --> faster ACC but OMP didn't seem to work anymore and had therefore multiple errors, couldn't make it work <br />
 
+## Exercise 2
+Extended the two methods with various success <br />
 
+## Exercise 3
+Extended the code with #pragma acc parallel loop reduction(+: sum) (atomic possible as well) to avoid race conditions, as multiple threads access and update sum simultaneously. Host still faster (latency?)
